@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">MovieTvshowCatalogue</string>
+
+    <string name="judul_film">Title</string>
+    <string name="lorem_ipsum">lorem_ipsum_dolor_sir_amet</string>
+    <string name="title">Title</string>
+    <string name="lorem_ipsum_dolor_sir_amet">Lorem ipsum dolor sir amet</string>
+
+
+    <string name="tab_text_1">Movies</string>
+    <string name="tab_text_2">Tv Shows</string>
+    <string name="change_language_setting">Change language setting</string>
+    <string name="favorites">Favorites</string>
+    <string name="reminder" translatable="false">Reminder</string>
+    <string name="catalogue">Catalogue</string>
+    <string name="success">Success added to favorites</string>
+    <string name="failed">Failed added to favorites</string>
+    <string name="success_delete">Success deleted from favorites</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_film_ex_avengers">Enter film (ex: Avengers)</string>
+    <string name="enter_tv_show_ex_the_witcher">Enter tv show (ex: The Witcher)</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="empty_content">Empty Content</string>
+    <string name="title_activity_notification_settings">Notification Settings</string>
+
+
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="judul_daily">Don\'t forget to check our new catalogue</string>
+    <string name="desk_daily">Check some movies or tv shows</string>
+    <string name="today_release">Some movies released today !</string>
+    <string name="key_lang">key_lang</string>
+    <string name="notifications">Notifications</string>
+    <string name="key_today_reminder">key_today_reminder</string>
+    <string name="summary_daily_reminder">Daily reminder every 7 AM</string>
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="key_release_reminder">key_release_reminder</string>
+    <string name="summary_release_reminder">Daily movie release info every 8 AM</string>
+    <string name="release_reminder">Movie Release Reminder</string>
+    <string name="movie_catalogue">Movie TvShow Catalogue</string>
+    <string name="favorites_catalogue">Favorites Catalogue</string>
+    <string name="movie_detail">Movie Detail</string>
+    <string name="search_movie">Search Movie</string>
+    <string name="tv_show_detail">Tv Show Detail</string>
+    <string name="tv_search">Search Tv Show</string>
+</resources>

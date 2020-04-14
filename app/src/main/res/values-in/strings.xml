@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Katalog Film Acara Tv</string>
+    <string name="judul_film">Judul</string>
+    <string name="lorem_ipsum">lorem_ipsum_dolor_sir_amet</string>
+    <string name="title">Judul</string>
+    <string name="lorem_ipsum_dolor_sir_amet">Lorem ipsum dolor sir amet</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tab_text_1">Film</string>
+    <string name="tab_text_2">Acara Tv</string>
+    <string name="change_language_setting">Ganti bahasa</string>
+    <string name="favorites">Favorit</string>
+    <string name="catalogue">Katalog</string>
+    <string name="success">Sukses menambahkan ke halaman favorit</string>
+    <string name="failed">Gagal menambahkan ke halaman favorit</string>
+    <string name="success_delete">Sukses hapus dari halaman favorit</string>
+    <string name="search">Pencarian</string>
+    <string name="settings">Pengaturan</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_film_ex_avengers">Masukan film (contoh: Avengers)</string>
+    <string name="enter_tv_show_ex_the_witcher">Masukan acara tv (contoh: The Witcher)</string>
+    <string name="appwidget_text">CONTOH</string>
+    <string name="add_widget">Tambah widget</string>
+    <string name="empty_content">Konten kosong</string>
+    <string name="title_activity_notification_settings">Pengaturan notifikasi</string>
+
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="judul_daily">Jangan lupa cek katalog film terbaru !</string>
+    <string name="desk_daily">Cek sekarang</string>
+    <string name="today_release">Film baru rilis hari ini !</string>
+    <string name="key_lang">key_lang</string>
+    <string name="notifications">Notifikasi</string>
+    <string name="key_today_reminder">key_today_reminder</string>
+    <string name="summary_daily_reminder">Pengingat harian setiap pukul 07:00</string>
+    <string name="daily_reminder">Pengingat harian</string>
+    <string name="key_release_reminder">key_release_reminder</string>
+    <string name="summary_release_reminder">Pengingat film rilis terbaru setiap pukul 08:00</string>
+    <string name="release_reminder">Pengingat film rilis terbaru</string>
+    <string name="movie_catalogue">Katalog Film Acata Tv</string>
+    <string name="favorites_catalogue">Katalog Favorit</string>
+    <string name="movie_detail">Detail Film</string>
+    <string name="search_movie">Pencarian Film</string>
+    <string name="tv_show_detail">Detail Tv</string>
+    <string name="tv_search">Pencarian Tv</string>
+
+</resources>

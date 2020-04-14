@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MovieFavoriteApp</string>
+
+
+    <string name="judul_film">Title</string>
+    <string name="lorem_ipsum">lorem_ipsum_dolor_sir_amet</string>
+    <string name="title">Title</string>
+    <string name="lorem_ipsum_dolor_sir_amet">Lorem ipsum dolor sir amet</string>
+
+</resources>

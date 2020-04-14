@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="afniramadania.tech.movieapicatalogue">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <permission
+        android:name="afniramadania.tech.movieapicatalogue.READ_DATABASE"
+        android:protectionLevel="normal" />
+    <permission
+        android:name="afniramadania.tech.movieapicatalogue.WRITE_DATABASE"
+        android:protectionLevel="normal" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <provider
+            android:name=".provider.MoviesTvProsvider"
+            android:authorities="afniramadania.tech.moviesapicatalogue"
+            android:exported="true"
+            android:readPermission="afniramadania.tech.moviesapicatalogue.READ_DATABASE"
+            android:writePermission="afniramadania.tech.moviesapicatalogue.WRITE_DATABASE"></provider>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"></activity>
+
+        <receiver android:name=".widget.FavoriteMovieTvWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/favorite_movie_tv_widget_info" />
+        </receiver>
+
+        <activity android:name=".activity.ReminderMovieTvActivity" />
+        <activity android:name=".activity.SearchTvshowActivity" />
+        <activity android:name=".activity.DetailTvshowActivity" />
+        <activity android:name=".activity.SearchMovieActivity" />
+        <activity android:name=".activity.DetailMovieActivity" />
+        <activity android:name=".activity.FavoriteActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".widget.StackRemoteViewFactory"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <receiver
+            android:name=".reminder.ReminderDailyReceiver"
+            android:enabled="true"
+            android:exported="true" />
+        <receiver
+            android:name=".reminder.ReminderReleaseReceiver"
+            android:enabled="true"
+            android:exported="true" />
+    </application>
+
+</manifest>
